@@ -1,0 +1,35 @@
+{
+  "name": "test-nyc-branching",
+  "version": "0.1.0",
+  "description": "Test branching of nyc",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha --require chai/register-expect index.js"
+  },
+  "nyc": {
+    "reporter": [
+      "html"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brettz9/test-nyc-branching.git"
+  },
+  "keywords": [
+    "nyc"
+  ],
+  "author": "Brett Zamir <brettz9@yahoo.com> (http://brett-zamir.me/)",
+  "contributors": [],
+  "engines": {},
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brettz9/test-nyc-branching/issues"
+  },
+  "homepage": "https://github.com/brettz9/test-nyc-branching#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.1",
+    "nyc": "^15.0.0"
+  }
+}
